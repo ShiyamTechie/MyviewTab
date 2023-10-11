@@ -16,7 +16,7 @@ steps{
         stage('Deploying') {
 steps{
 echo 'deploy started'
-bat 'atlas-install-plugin --username shiyamganesh --password Jira@(2023) --server localhost --http-port 8090 --plugin-key com.atlassian.plugins.jiratraining.MyViewTab --context-path ""'
+bat 'atlas-install-plugin --username shiyamganesh --password Jira^@(2023^) --server localhost --http-port 8090 --plugin-key com.atlassian.plugins.jiratraining.MyViewTab --context-path ""'
 }
 
         }
